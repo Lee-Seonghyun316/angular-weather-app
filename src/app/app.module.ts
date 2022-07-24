@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AppWeatherCardComponent } from './app-weather-card/app-weather-card.component';
 import { WeatherCardComponent } from './weather-card/weather-card.component';
+import { AddCardComponent } from './add-card/add-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AppWeatherCardComponent,
-    WeatherCardComponent
+    WeatherCardComponent,
+    AddCardComponent
   ],
   imports: [
     BrowserModule,
